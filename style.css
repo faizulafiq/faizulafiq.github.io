@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    padding: 0 10rem;
     background-color: #f6f6f6;
 }
 
@@ -9,7 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem 0;
+    padding: 4rem 10rem 1rem 10rem;
     background-color: transparent;
 }
 
@@ -34,4 +33,8 @@ body {
 
 .navbar .nav-links a:hover {
     color: #007bff;
+}
+
+.about {
+    display: flex;
 }
